@@ -1,0 +1,5 @@
+<nav class="navigation">
+  <div *ngFor="let route of routes" class="navigation__item" [class.--active]="route.isActive">
+    {{ route.name }}
+  </div>
+</nav>

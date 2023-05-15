@@ -1,0 +1,23 @@
+.app {
+  display: grid;
+  grid: "sidebar body" 1fr / auto 1fr;
+
+  &__navigation {
+    grid-area: sidebar;
+  }
+
+  &__main {
+    max-width: 1510px;
+    margin: 0 auto;
+    grid-area: body;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__footer {
+    border-top: 1px solid #dedede;
+    margin-top: auto;
+    padding: 30px;
+  }
+}

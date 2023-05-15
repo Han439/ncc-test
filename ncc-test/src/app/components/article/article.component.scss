@@ -1,0 +1,17 @@
+.article {
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+  &__image {
+    float: left;
+    margin-right: 16px;
+  }
+
+  &__content {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

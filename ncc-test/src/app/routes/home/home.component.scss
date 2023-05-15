@@ -1,0 +1,37 @@
+.home {
+  padding: 20px 30px;
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  &__introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 15px;
+    background: #EFEFEF;
+    margin-bottom: 40px;
+  }
+
+  &__introduction-title {
+    margin-bottom: 18px;
+  }
+
+  &__introduction-text {
+    max-width: 972px;
+    font-size: 16px;
+  }
+
+  &__articles {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 50px;
+  }
+}
